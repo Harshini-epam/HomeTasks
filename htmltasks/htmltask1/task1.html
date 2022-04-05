@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Blog</title>
+    <link rel="stylesheet" href="style.css">
+</style>  
+</head>
+
+<body>
+    <header>
+       <div class = "head-box">
+        <h1 class = "head-content1">NEWS BLOG</h1>
+        <h4 class = "head-content2">WORLDWIDE NEWS</h4>
+       
+       </div>
+    </header>
+   
+    <main>
+        
+        <div class = "top-row">
+
+            <div class = "first-ele-in-row">
+                <small  >SELECT CATEGORY</small>
+                
+                <select name="category" id="category">
+                        <option>ALL</option>
+                        <option>International News</option>
+                        <option>National News</option>
+                        <option>Local News</option>
+                </select>
+
+            </div>
+
+            <div class = "second-ele-in-row">
+               <h2>ALL NEWS</h2>
+                
+            </div>
+
+          <div  class = "third-ele-in-row">
+ 
+            
+
+            <input type="email" placeholder="Email Address" id="email">
+                    <button onclick="function1()" id="subscribe">Subscribe</button>
+
+
+
+<script>
+function function1() {
+  
+    if (confirm("You want to Subscribe!")) {
+   alert("Subscription added");
+  } else {
+    alert("You pressed Cancel!, Subscription not added");
+  }
+  
+}
+</script>
+          </div>
+        </div>
+            <hr class = "hr-line">
+            <br><br>
+        <div class="flex-container">
+                
+            <div class="article-card">
+                        
+                <img src="https://images.hindustantimes.com/img/2022/04/04/550x309/HEALTH-CORONAVIRUS-CHINA-8_1648879542515_1649041745277.JPG" alt="sample image" id="article-image2" />
+                <div class="art-title">
+                <h3><b>Covid Surge</b></h3>
+                </div>
+                <p><small>Posted on <b>4 April,2022</b>//Category: Category One</small></p>
+                <br>
+                <p>
+                    China continues to see a massive surge in Covid-19 cases with the country reporting 13,000 cases
+                     on Sunday, the highest since the peak of first wave in Wuhan. Shanghai, which has become the 
+                     epicenter of the country's worst outbreak has been forced into a lockdown. The entire city of 
+                     around 25 million people is now under movement restrictions, with another round of mass 
+                     testing planned, reports said.
+                 
+                </p><br>
+                <button class="continue" onclick="function2()">Continue Reading</button>
+                      <script>
+                        function function2() {
+                          
+                            if (confirm("You want to Continue Reading!")) {
+                           alert("Redirecting....");
+                          } else {
+                            alert("You pressed Cancel!, Cannot continue further");
+                          }
+                          
+                        }
+                        </script>
+              </div>  
+              
+                    <div class="article-card">
+                        
+                      <img src="https://images.indianexpress.com/2021/03/ipl-2021-trophy.jpg" alt="sample image" id="article-image2" />
+                      <div class="art-title">
+                      </div>
+                      <h3><b>IPL NEWS</b></h3>
+                      <p><small>Posted on <b>4 April,2022</b>//Category: Category Two</small></p>
+                      <br>
+                      <p>
+                    The twelth match of the TATA IPL 2022 will see the clash between Sunrisers Hyderabad and Lucknow
+                    Super Giants.Sunrisers Hyderabad will be squaring off against Lucknow Super Giants for the first 
+                    time in the twelth match of this season.Sunrisers Hyderabad is currently placed at the bottom of 
+                    the points table whereas Lucknow Super Giants is currently placed at the fifth spot on table.
+                       
+                      </p><br>
+                      <button class="continue" onclick="function2()">Continue Reading</button>
+                      <script>
+                        function function2() {
+                          
+                            if (confirm("You want to Continue Reading!")) {
+                           alert("Redirecting....");
+                          } else {
+                            alert("You pressed Cancel!, Cannot continue further");
+                          }
+                          
+                        }
+                        </script>
+                    </div> 
+                    <div class="article-card">
+                      <img src="https://english.cdn.zeenews.com/sites/default/files/2022/04/03/1027977-untitled-design-2022-04-03t134436.676.jpg" alt="sample image" id="article-image3" />
+                    <div class="art-title">
+                      <h3><b>New Districts</b></h3>
+                      </div>
+                      <p><small>Posted on<b>4 April, 2022</b> //Category: Category Three</small></p>
+                      <br>
+                      <p>
+                        Andhra Pradesh today created 13 new districts taking the total number to 26. 
+                        Chief Minister Y.S. Jagan Mohan Reddy digitally inaugurated 13 new districts in the 
+                        state from his office camp in Tadepalli in the Guntur district. 
+                        All the new districts have come into effect from April 4. 
+                       
+                      </p><br>
+                      <button class="continue" onclick="function2()">Continue Reading</button>
+                      <script>
+                        function function2() {
+                          
+                            if (confirm("You want to Continue Reading!")) {
+                           alert("Redirecting....");
+                          } else {
+                            alert("You pressed Cancel!, Cannot continue further");
+                          }
+                          
+                        }
+                        </script>
+                    </div> 
+        </div>
+              
+
+    </main>
+    <br><br>
+    <footer>
+        
+        <p class="footer-content">&copy;News Feed 2022</p>
+    </footer>
+
+    
+</body>
+</html>
