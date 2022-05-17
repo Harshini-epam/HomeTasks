@@ -1,5 +1,5 @@
 var totalRecords = 15;
-var ItemsInPage = 3;
+var ItemsInPage = 5;
 var totalpages = totalRecords / ItemsInPage;
 var prev = 1;
 var Data;
