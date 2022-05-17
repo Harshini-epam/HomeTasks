@@ -1,8 +1,10 @@
-function add(n){
-    // Let the currying begin!
-     let val=function(a){
-       return add(n+a);
-     }
-     val.valueOf=()=>n;
-    return val;
+function add(a){ 
+     let res = function (b){ 
+   return add(a+b);
+    }
+   res.valueOf = function(){
+      return a;
+    }
+      return res;
   }
+  
