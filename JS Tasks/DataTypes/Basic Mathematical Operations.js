@@ -1,5 +1,13 @@
 function basicOp(operation, value1, value2)
 {
-  // Code
-  return (value1 + operation + value2);
+  switch(operation){
+      case '+':
+        return value1+value2;
+      case '-':
+        return value1-value2;
+      case '*':
+        return value1*value2;
+      case '/':
+        return value1/value2;
+  }
 }
